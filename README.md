@@ -9,3 +9,9 @@
 
 ###### Kick start with one command
 `npx create-mern-app`
+###### Follow the prompts
+`> select project folder name`
+
+`> select backend folder name`
+
+`> select frontend folder name`
