@@ -1,0 +1,15 @@
+{
+  "name": "create-mern-app",
+  "version": "1.0.0",
+  "description": "`cd <destination>`",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.12"
+  }
+}
