@@ -1,17 +1,9 @@
-import os from "os";
+import inquirer from "inquirer"
 
-const PLATFROM = os.platform();
-
-switch (PLATFROM) {
-  case "win32":
-    console.log("Windows OS");
-    break;
-  case "linux":
-    console.log("Linux");
-    break;
-  case "darwin":
-    console.log("MacOS");
-    break;
-  default:
-    console.log(PLATFROM);
-}
+inquirer.prompt([
+   "What is your name a**hole??"
+]).then(answer => {
+    console.log(answer)
+}).catch(error => {
+   console.log(error)
+})
